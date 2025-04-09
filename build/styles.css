@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+#timer-display {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+input.form-control-lg {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+button.btn {
+    padding: 10px 30px;
+    font-size: 1.5rem;
+}
+
+h2.display-1 {
+    color: #007bff;
+}
+
+#time-left {
+    font-size: 4rem;
+    color: #007bff;
+}
