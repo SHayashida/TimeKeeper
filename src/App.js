@@ -1,13 +1,7 @@
 import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>TimeKeeper</h1>
-      </header>
-    </div>
-  );
+  return null; // または必要なコンポーネントのみを返す
 }
 
 export default App; 
