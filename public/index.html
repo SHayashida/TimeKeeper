@@ -8,6 +8,8 @@
     <title>TimeKeeper</title>
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,29 +17,35 @@
     <div id="root"></div>
 
     <div class="container text-center mt-5">
-        <h1 class="mb-4">タイムキーパー</h1> <!-- タイトルを変更 -->
+        <h1 class="mb-4">タイムキーパー</h1>
 
-        <!-- 入力フォーム -->
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <input type="number" id="presentation-time" class="form-control form-control-lg text-center" value="8" min="0">
+        <div class="timer-container">
+            <!-- 入力フォーム -->
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <input type="number" id="presentation-time" class="form-control form-control-lg text-center" value="8" min="0">
+                </div>
             </div>
-        </div>
 
-        <!-- ボタン -->
-        <div class="my-4">
-            <button id="start-button" class="btn btn-primary btn-lg me-3">スタート</button>
-            <button id="stop-button" class="btn btn-secondary btn-lg">ストップ</button>
-        </div>
+            <!-- ボタン -->
+            <div class="my-4">
+                <button id="start-button" class="btn btn-primary btn-lg me-3">スタート</button>
+                <button id="stop-button" class="btn btn-secondary btn-lg">ストップ</button>
+            </div>
 
-        <!-- カウントダウン表示 -->
-        <div id="timer-display" class="mt-4">
-            <h2 class="display-1 fw-bold"><span id="time-left">08:00</span></h2>
-        </div>
+            <!-- カウントダウン表示 -->
+            <div id="timer-display" class="mt-4">
+                <h2 class="display-1 fw-bold"><span id="time-left">08:00</span></h2>
+            </div>
 
-        <!-- 画像表示要素 -->
-        <div id="image-container" style="display: none; opacity: 0;">
-            <img src="ポケセラさん②.png" alt="タイマー終了" id="end-image" class="img-fluid" style="max-width: 300px;">
+            <!-- モダンなアニメーション要素 -->
+            <div id="completion-animation" class="completion-animation">
+                <div class="confetti-container"></div>
+                <div class="completion-message">
+                    <h3>時間になりました！</h3>
+                    <div class="pulse-circle"></div>
+                </div>
+            </div>
         </div>
     </div>
 
