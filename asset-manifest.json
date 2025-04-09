@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/TimeKeeper/static/js/main.1455085b.js",
+    "main.js": "/TimeKeeper/static/js/main.f31ed9b0.js",
     "index.html": "/TimeKeeper/index.html",
-    "main.1455085b.js.map": "/TimeKeeper/static/js/main.1455085b.js.map"
+    "main.f31ed9b0.js.map": "/TimeKeeper/static/js/main.f31ed9b0.js.map"
   },
   "entrypoints": [
-    "static/js/main.1455085b.js"
+    "static/js/main.f31ed9b0.js"
   ]
 }
